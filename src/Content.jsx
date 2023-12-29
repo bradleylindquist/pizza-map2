@@ -38,7 +38,7 @@ export function Content() {
       ))}
 
       <ZoomControl buttonStyle={style} />
-      <Overlay anchor={[47.91, -97.045]} offset={[43, 39]} onDragEnd={setAnchor}>
+      <Overlay anchor={[47.9107, -97.04438]} offset={[43, 39]} onDragEnd={setAnchor}>
         <img
           src="https://cdn-icons-png.flaticon.com/512/218/218206.png"
           width={75}
