@@ -17,7 +17,7 @@ export function Content() {
     { id: 6, lat: 44.9778, lng: -93.265 },
   ];
   return (
-    <Map height={800} defaultCenter={[39.099, -94.578]} defaultZoom={4}>
+    <Map height={800} defaultCenter={[39.099, -94.578]} defaultZoom={5}>
       {slices.map((slice) => (
         <Draggable key={slice.id} anchor={[slice.lat, slice.lng]} offset={[43, 79]}>
           <img src="https://cdn-icons-png.flaticon.com/512/2558/2558100.png" width={75} height={75} alt="" />
