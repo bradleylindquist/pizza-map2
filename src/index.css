@@ -1,3 +1,14 @@
 html {
   scroll-behavior: smooth;
 }
+
+header {
+  background: maroon;
+  color: gold;
+  height: 2.2rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  box-shadow: 0 .2rem .5rem gold;
+  border-radius: .5rem;
+  padding: 1rem;
+}

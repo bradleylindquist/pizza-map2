@@ -3,28 +3,36 @@
   position: fixed;
   top: 0;
   left: 0;
-  width:100%;
+  width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
   z-index: 1000;
 }
 
 .modal-main {
+  display: inline-block;
   position: fixed;
-  background: white;
-  width: 80%;
+  background: maroon;
+  color: gold;
+  box-shadow: 0 .2rem .5rem gold;
+  border-radius: .5rem;
+  font-weight: 600;
+  width: 32%;
   height: auto;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   padding: 1em;
+  font-size: 1.7em;
+  
 }
 
 .modal-main button.close {
-  font-size: 2em;
+  font-size: 1.2em;
   background: none;
+  color: gold;
   border: none;
   position: absolute;
-  top: 0em;
+  top: 0.2em;
   right: 0.2em;
 }
